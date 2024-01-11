@@ -1,0 +1,129 @@
+body {
+    background-color: #EEEDED;
+}
+.banner-area .left img {
+    width: 100%;
+    max-height: 952px;
+    object-fit: cover;
+}
+
+.banner-area .right .images-area img:first-child {
+    margin-top: 105px;
+    margin-right: 26px;
+}
+
+.banner-area .right .images-area img:last-child {
+    margin-top: 75px;
+}
+
+.banner-area .right h1 {
+    font-size: 72px;
+    font-family: 'Source Serif 4', serif;
+    text-align: center;
+    color: #030E28;
+    font-weight: 400;
+    margin-top: 90px;
+}
+
+
+.banner-area .right img {
+    width: 229px;
+    height: 303px;
+    object-fit: cover;
+}
+
+
+.banner-area h4 {
+    font-size: 20px;
+    font-family: 'Source Serif 4', serif;
+    text-align: center;
+    color: #030E28;
+    font-weight: 400;
+    max-width: 480px;
+    margin-top: 85px;
+
+}
+
+.banner-area .right .mb-3 {
+    width: 480px;
+    margin-top: 40px;
+}
+
+.banner-area .right input {
+    background-color: transparent;
+    border: none;
+}
+
+.banner-area .right form label {
+    font-size: 14px;
+    color: #030E28;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.banner-area .right form div div {
+    border-bottom: 2px solid #BD0000;
+    padding: 0px 0px 5px 0px;
+}
+
+.banner-area .right form input[type='email']{
+    width: calc(100%-120px);
+}
+
+.banner-area .right form input[type='email']:focus {
+    box-shadow: none;
+
+}
+
+
+.banner-area .right form button[type='submit']{
+    width: 101px;
+    height: 32px;
+    background-color: #0864E5!important;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 0px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+
+}
+
+.banner-area .right p {
+    text-align: center;
+    color: #030E28;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 110px;
+   
+}
+
+.banner-area .right p a {
+    text-decoration: none;
+    color: inherit;
+}
+
+@media screen and (max-width:700px){
+    .baneer-area {
+        flex-direction: column!important;
+    }
+
+    .baneer-area .right img {
+        width: 200px;
+    }
+
+    .baneer-area form {
+        width: 90%;
+        margin: auto;
+
+    }
+
+    .baneer-area .right .mb-3{
+        width: 100%;
+    }
+
+    .baneer-area .left img {
+        max-height: 600px;
+    }
+}
+
